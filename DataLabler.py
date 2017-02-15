@@ -36,7 +36,7 @@ def DataLabler(train_file_name,querry_file_name):
 #predict
 	predicted = classifier.predict(test_ques)
 #write the output using panads
-	output = pd.DataFrame( data={"Question":test["questions"], "Lable":predicted})
+	output = pd.DataFrame( data={"Question":test["questions"], "Type":predicted})
 	output.to_csv( "response.csv", index=False)
 
 def main():
