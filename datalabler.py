@@ -1,5 +1,5 @@
 #coding: utf-8
-#!/bin/python
+#!/bin/python3
 import re
 import pandas as pd
 import numpy as np
